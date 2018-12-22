@@ -19,6 +19,17 @@ p{
 }
 
 
+/*Sections*/
+
+
+.colored-section{
+    background-color: #ff4c68;
+    color: white;
+}
+.white-section{
+    background-color: white;
+}
+
 /*Heading*/
 
 
@@ -58,21 +69,16 @@ p{
 /*Title*/
 
 
-#title{
-    background-color: #ff4c68;
-    color: white;
+#title .container-fluid{
+    padding: 3% 15% 7%;
     text-align: left;
 }
 
-#title .container-fluid{
-    padding: 3% 15% 7%;
-}
-
 .title-img{
-    width: 60%;
-    transform: rotate(25deg);
     position: absolute;
     right: 30%;
+    transform: rotate(25deg);
+    width: 60%;
 }
 
 
@@ -88,7 +94,6 @@ p{
 
 
 #features{
-    background-color: white;
     position: relative;
 }
 
@@ -115,7 +120,6 @@ color: #ff4c68;
 
 #testimonials{
     background-color: #ef8172;
-    color: white;
 }
 
 .testimonial-img{
@@ -159,21 +163,8 @@ color: #ff4c68;
 }
 
 
-/*CTA*/
-
-
-#cta{
-    color: white;
-    background-color: #ff4c68;
-}
-
-
 /*Footer*/
 
-
-#footer{
-    background-color: white;
-}
 .footer-icons{
     margin: 1%;
 }
