@@ -141,6 +141,39 @@ padding: 5%;
 }
 
 
+
+/*CTA*/
+
+
+
+#cta{
+    color: white;
+    padding: 7% 15%;
+    background-color: #ff4c68;
+    text-align: center;
+}
+.cta-h3{
+    font-weight: 900;
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+
+
+/*Footer*/
+
+
+
+#footer{
+    background-color: white;
+    text-align: center;
+    padding: 7% 15%;
+}
+.footer-icons{
+    margin: 1%;
+}
+
+
+
 @media (max-width: 1028px) {
     .title-img{
         position: static;
